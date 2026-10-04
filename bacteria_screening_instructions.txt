@@ -224,7 +224,7 @@
     ],
 
     "title_abstract_screening_rule": {
-      "rule": "Title/abstract screening should prioritize sensitivity. If the title and abstract clearly violate an exclusion criterion, exclude the study. If the study appears potentially eligible but information needed for criteria such as quantitative metrics, dataset description, agar medium, full-text language, or peer-review status is missing, retain it for full-text screening and set Uncertain to 'yes'. Do not exclude a potentially eligible study solely because the abstract omits information that could reasonably appear in the full text. Never apply criterion E12 ('Full text unavailable') during title/abstract screening; E12 is strictly reserved for the full-text review stage after retrieval attempts."
+      "rule": "Title/abstract screening should prioritize sensitivity. If the title and abstract clearly violate an exclusion criterion, exclude the study. If the study appears potentially eligible but information needed for criteria such as quantitative metrics, dataset description, agar medium, full-text language, or peer-review status is missing, retain it for full-text screening and set Uncertain to 'yes'. Do not exclude a potentially eligible study solely because the abstract omits information that could reasonably appear in the full text. Do not apply criterion E12 ('Full text unavailable') during title/abstract screening; E12 is strictly reserved for the full-text review stage after retrieval attempts."
     },
 
     "examples": {
