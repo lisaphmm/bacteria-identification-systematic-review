@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*.docx
+
+# Environment variables & API keys
+.env
+*.env
+
+# Large generated batch files (50MB+)
+batch_requests/

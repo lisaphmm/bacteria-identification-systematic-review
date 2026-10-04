@@ -1,0 +1,270 @@
+{
+  "instructions": {
+    "task": "Decide whether to include or exclude a study for a systematic review of artificial intelligence and machine learning methods applied to bacterial colony images on agar plates. Evaluate the title, abstract, keywords, publication metadata, and any other supplied bibliographic information according to the criteria below.",
+
+    "review_topic": "Artificial Intelligence and Machine Learning for Bacterial Colony Identification on Agar Plate Images",
+
+    "review_period": {
+      "start_year": 2010,
+      "end_year": 2026,
+      "inclusive": true
+    },
+
+    "output_format": {
+      "type": "JSON",
+      "fields": {
+        "Comments": "Short but specific explanation identifying why the paper satisfies or fails the eligibility criteria.",
+        "Include?": "'yes' if the paper should proceed to the systematic review/full-text screening, 'no' if it should be excluded.",
+        "Exclusion_reason": "If excluded, provide the primary exclusion criterion. If included, return null.",
+        "Uncertain": "'yes' if information needed to confirm one or more criteria is unavailable from the supplied metadata/abstract; otherwise 'no'."
+      }
+    },
+
+    "screening_principles": [
+      "Apply all eligibility criteria consistently.",
+      "Do not include a paper merely because it contains keywords such as bacteria, colony, artificial intelligence, machine learning, deep learning, agar, or image classification.",
+      "The actual study methodology and experimental target must satisfy the eligibility criteria.",
+      "When information cannot reasonably be determined from the title and abstract, do not invent or assume information.",
+      "If the study appears potentially eligible but a criterion requires full-text verification, set Include? to 'yes' and Uncertain to 'yes', and explicitly state what must be verified.",
+      "Use exclusion only when the available information clearly violates at least one exclusion criterion.",
+      "Preprints are a HARD EXCLUSION. A study identified as an unpublished preprint must never be included.",
+      "Publication in arXiv, bioRxiv, medRxiv, Research Square, SSRN, or another preprint repository alone does not constitute peer review.",
+      "If a preprint has subsequently been published as a peer-reviewed journal article or full conference paper, evaluate the peer-reviewed version and exclude the preprint version.",
+      "Where duplicate versions of the same study exist, retain only the most complete peer-reviewed publication."
+    ],
+
+    "mandatory_inclusion_criteria": [
+      {
+        "id": "I1",
+        "criterion": "Publication year",
+        "rule": "The study must have been published from 2010 through 2026 inclusive."
+      },
+      {
+        "id": "I2",
+        "criterion": "Original research",
+        "rule": "The study must report an original AI/ML model, experiment, evaluation, or empirical analysis."
+      },
+      {
+        "id": "I3",
+        "criterion": "Peer-reviewed publication",
+        "rule": "The study must be a peer-reviewed journal article or a full peer-reviewed conference paper."
+      },
+      {
+        "id": "I4",
+        "criterion": "Bacterial target",
+        "rule": "The study must analyze bacteria. Studies containing multiple organism types may be eligible if bacterial colonies are explicitly included and bacterial results are relevant to the study."
+      },
+      {
+        "id": "I5",
+        "criterion": "Agar-based bacterial colony images",
+        "rule": "The study must use images of bacterial colonies grown on agar plates or other agar-based solid culture media."
+      },
+      {
+        "id": "I6",
+        "criterion": "Real bacterial colony images",
+        "rule": "The study must include real bacterial colony images. Synthetic images are acceptable only when they supplement real bacterial images, for example as data augmentation."
+      },
+      {
+        "id": "I7",
+        "criterion": "AI/ML component",
+        "rule": "The study must apply a learning-based artificial intelligence or machine learning method to bacterial colony images. Eligible approaches include, but are not limited to, traditional machine learning, artificial neural networks, convolutional neural networks, deep learning, transfer learning, object detection, segmentation networks, vision transformers, and other learning-based computer-vision methods."
+      },
+      {
+        "id": "I8",
+        "criterion": "Relevant colony-analysis task",
+        "rule": "The AI/ML method must perform at least one relevant bacterial colony analysis task: detection/localization, classification, bacterial identification, segmentation, or colony counting."
+      },
+      {
+        "id": "I9",
+        "criterion": "Quantitative evaluation",
+        "rule": "The study must report at least one quantitative model-performance measure, such as accuracy, precision, recall/sensitivity, specificity, F1-score, IoU, Dice score, mAP, AUC, counting error, MAE, RMSE, or another clearly defined quantitative performance metric."
+      },
+      {
+        "id": "I10",
+        "criterion": "Dataset",
+        "rule": "The study must use a named, described, or otherwise identifiable dataset. Both public datasets such as AGAR or DIBaS and private/custom-collected datasets are eligible."
+      },
+      {
+        "id": "I11",
+        "criterion": "Language",
+        "rule": "The full text must be available in English."
+      },
+      {
+        "id": "I12",
+        "criterion": "Full publication",
+        "rule": "Sufficient full-text methodological information must be available to assess the study."
+      }
+    ],
+
+    "automatic_exclusion_criteria": [
+      {
+        "id": "E1",
+        "criterion": "Outside publication period",
+        "rule": "Exclude studies published before 2010 or after 2026."
+      },
+      {
+        "id": "E2",
+        "criterion": "Preprint",
+        "rule": "Exclude all unpublished or non-peer-reviewed preprints, including papers available only through arXiv, bioRxiv, medRxiv, Research Square, SSRN, or similar preprint servers."
+      },
+      {
+        "id": "E3",
+        "criterion": "Non-original publication",
+        "rule": "Exclude systematic reviews, scoping reviews, narrative reviews, meta-analyses, surveys, editorials, perspectives, commentaries, letters without original experiments, magazine articles, protocols without results, and other publications without an original AI/ML experiment."
+      },
+      {
+        "id": "E4",
+        "criterion": "Wrong specimen or imaging context",
+        "rule": "Exclude studies that do not analyze bacterial colonies on agar or agar-based solid culture media. Examples include blood smears, urine sediment, tissue histology, microscopy without agar colony imaging, liquid cultures, broth cultures, genomic sequences alone, mass spectra alone, or other non-agar imaging contexts."
+      },
+      {
+        "id": "E5",
+        "criterion": "Non-bacterial study",
+        "rule": "Exclude studies focused exclusively on fungi, yeast, viruses, parasites, plants, mammalian cells, or other non-bacterial organisms. Do not exclude mixed-organism studies when bacteria are explicitly included and relevant bacterial results are provided."
+      },
+      {
+        "id": "E6",
+        "criterion": "No AI/ML",
+        "rule": "Exclude studies using only manual or classical deterministic image-processing techniques without a learning-based AI/ML model, such as thresholding, edge detection, watershed segmentation, handcrafted rules, or morphological operations used alone."
+      },
+      {
+        "id": "E7",
+        "criterion": "Irrelevant AI/ML task",
+        "rule": "Exclude studies in which AI/ML is not used for bacterial colony detection, identification/classification, segmentation, counting, or another directly relevant colony-analysis task."
+      },
+      {
+        "id": "E8",
+        "criterion": "No quantitative evaluation",
+        "rule": "Exclude purely descriptive, conceptual, feasibility-demonstration, or proof-of-concept studies that report no quantitative model-performance evaluation."
+      },
+      {
+        "id": "E9",
+        "criterion": "Synthetic-only data",
+        "rule": "Exclude studies using only simulated, generated, or synthetic bacterial colony images with no real bacterial colony image data."
+      },
+      {
+        "id": "E10",
+        "criterion": "Hardware-only study",
+        "rule": "Exclude studies focused solely on imaging hardware, plate scanners, incubators, cameras, robotic systems, or acquisition equipment when there is no AI/ML component performing relevant bacterial colony analysis."
+      },
+      {
+        "id": "E11",
+        "criterion": "Insufficient publication",
+        "rule": "Exclude conference abstracts, posters, presentation abstracts, or extended abstracts that do not provide sufficient methodological and experimental information."
+      },
+      {
+        "id": "E12",
+        "criterion": "Full text unavailable (Full-text stage only)",
+        "applicable_stage": "full_text_screening_only",
+        "rule": "Exclude only during the full-text screening stage when the full text cannot be obtained or only the abstract is available after retrieval attempts. DO NOT apply this criterion during title and abstract screening."
+      },
+      {
+        "id": "E13",
+        "criterion": "Non-English full text",
+        "rule": "Exclude studies whose full text is not available in English."
+      },
+      {
+        "id": "E14",
+        "criterion": "Duplicate publication",
+        "rule": "Exclude duplicate reports of the same study. If a conference study was subsequently expanded into a journal article, retain the most complete and recent peer-reviewed version."
+      }
+    ],
+
+    "special_decision_rules": {
+      "preprints": {
+        "priority": "HIGHEST",
+        "rule": "If the publication is confirmed to be a preprint without a peer-reviewed published version, immediately exclude it regardless of how well it satisfies the scientific criteria.",
+        "examples": [
+          "arXiv-only paper",
+          "bioRxiv-only paper",
+          "medRxiv-only paper",
+          "Research Square preprint",
+          "SSRN preprint"
+        ]
+      },
+      "agar_requirement": {
+        "rule": "The presence of bacteria alone is insufficient. The study must analyze images showing bacterial colonies grown on agar or another agar-based solid culture medium."
+      },
+      "ai_requirement": {
+        "rule": "Image processing alone is insufficient. At least one learning-based AI/ML model must be trained, tested, evaluated, or applied to the bacterial colony image data."
+      },
+      "mixed_methods": {
+        "rule": "A study combining classical image processing with AI/ML remains eligible if a learning-based AI/ML component contributes directly to the relevant colony-analysis task."
+      },
+      "mixed_organisms": {
+        "rule": "A study containing bacteria and other microorganisms can be included if bacterial colony analysis forms part of the experimental evaluation."
+      },
+      "synthetic_data": {
+        "rule": "Synthetic data are acceptable when used for augmentation or supplementation of real bacterial colony images. Studies based exclusively on synthetic data must be excluded."
+      },
+      "conference_papers": {
+        "rule": "Full peer-reviewed conference papers are eligible. Conference abstracts, posters, presentation summaries, and insufficient extended abstracts are excluded."
+      },
+      "duplicate_versions": {
+        "rule": "When both a preprint and a peer-reviewed version exist, exclude the preprint and retain the peer-reviewed version. When a conference paper has been substantially expanded into a journal article, retain the most complete/recent version."
+      },
+      "unclear_peer_review_status": {
+        "rule": "Do not assume that a publication is peer reviewed. If peer-review status cannot be established from supplied metadata, set Uncertain to 'yes' and state that publication status must be verified."
+      }
+    },
+
+    "decision_order": [
+      "1. Check publication year: must be 2010-2026 inclusive.",
+      "2. Check publication type and peer-review status. Confirmed preprints are immediately excluded.",
+      "3. Check that the study reports original research.",
+      "4. Check that bacteria are included.",
+      "5. Check that bacterial colonies are grown/imaged on agar or agar-based solid culture media.",
+      "6. Check that real bacterial colony images are used.",
+      "7. Check that a learning-based AI/ML method is used.",
+      "8. Check that AI/ML is applied to a relevant colony-analysis task.",
+      "9. Check for quantitative model evaluation.",
+      "10. Check that the dataset is named or sufficiently described.",
+      "11. Check English-language and full-text requirements when this information is available.",
+      "12. Check for duplicate/preprint/conference/journal versions and retain the most complete eligible peer-reviewed version."
+    ],
+
+    "title_abstract_screening_rule": {
+      "rule": "Title/abstract screening should prioritize sensitivity. If the title and abstract clearly violate an exclusion criterion, exclude the study. If the study appears potentially eligible but information needed for criteria such as quantitative metrics, dataset description, agar medium, full-text language, or peer-review status is missing, retain it for full-text screening and set Uncertain to 'yes'. Do not exclude a potentially eligible study solely because the abstract omits information that could reasonably appear in the full text. Never apply criterion E12 ('Full text unavailable') during title/abstract screening; E12 is strictly reserved for the full-text review stage after retrieval attempts."
+    },
+
+    "examples": {
+      "included": [
+        {
+          "title": "Deep Learning-Based Identification of Bacterial Colonies on Agar Plates",
+          "reason": "Original peer-reviewed study using a learning-based model to classify real bacterial colony images grown on agar and reporting quantitative performance metrics."
+        },
+        {
+          "title": "Automatic Detection and Counting of Bacterial Colonies Using Convolutional Neural Networks",
+          "reason": "Uses CNN-based analysis of bacterial colony images for a relevant detection/counting task with quantitative evaluation."
+        },
+        {
+          "title": "Bacterial Colony Classification on Agar Plates Using Morphological Features and Support Vector Machines",
+          "reason": "Original peer-reviewed study applying traditional machine learning (SVM) to morphological/texture features extracted from real bacterial colony images on agar plates, reporting quantitative classification metrics."
+        }
+      ],
+      "excluded": [
+        {
+          "title": "A Review of Deep Learning Methods for Bacterial Identification",
+          "reason": "Review article; no original AI/ML experiment."
+        },
+        {
+          "title": "Machine Learning Identification of Bacteria from MALDI-TOF Spectra",
+          "reason": "Uses bacterial mass spectra rather than bacterial colony images on agar plates."
+        },
+        {
+          "title": "Automatic Colony Segmentation Using Thresholding and Watershed",
+          "reason": "Classical image processing only; no learning-based AI/ML component."
+        },
+        {
+          "title": "Deep Learning Classification of Fungal Colonies on Agar Plates",
+          "reason": "Fungi-only study with no bacterial analysis."
+        },
+        {
+          "title": "AI-Based Bacterial Colony Classification",
+          "publication": "arXiv preprint",
+          "reason": "Preprint without confirmed peer-reviewed publication; automatic exclusion."
+        }
+      ]
+    }
+  }
+}
