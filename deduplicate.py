@@ -240,6 +240,9 @@ def load_scopus(filepath):
             reader.fieldnames = [fn.strip('\ufeff"') for fn in (reader.fieldnames or [])]
             for i, row in enumerate(reader):
                 eid = row.get("EID", f"SCOPUS:{i+1}")
+                abstract = row.get("Abstract", "").strip()
+                if abstract == "[No abstract available]":
+                    abstract = ""
                 records.append({
                     "Primary_Database": "Scopus",
                     "ID": eid,
@@ -248,7 +251,7 @@ def load_scopus(filepath):
                     "Year": row.get("Year", ""),
                     "Journal": row.get("Source title", ""),
                     "DOI": row.get("DOI", "").strip(),
-                    "Abstract": "",
+                    "Abstract": abstract,
                     "_norm_doi": norm_doi(row.get("DOI", "")),
                     "_norm_title": norm_title(row.get("Title", "")),
                     "_all_sources": ["Scopus"],
