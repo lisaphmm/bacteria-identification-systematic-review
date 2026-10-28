@@ -1,0 +1,178 @@
+﻿Record_ID,LLM_decision,LLM_code,LLM_reason,LLM_detail
+R00018,Exclude,E5,"No bacteria analysed (plant, viral, mammalian-cell or non-bacterial organism images)",Fluorescence images of faecal matter/ingesta on carcasses; bacteria not imaged
+R00065,Include,,,
+R00079,Include,,,
+R00081,Include,,,
+R00138,Include,,,
+R00158,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",Commercial AI urine-culture reader; deep learning not stated (borderline)
+R00176,Include,,,
+R00313,Include,,,
+R00334,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)","no deep-learning model described; Fluorescence image-based viable-cell counting of faecal microbiota products (QUANTOM), not plate colonies"
+R00350,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; APAS image-analysis device evaluation; AI/ML method not described in the report (borderline)
+R00361,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Urine analyser screening vs urine culture; colonies are the reference only
+R00362,Include,,,
+R00374,Include,,,
+R00378,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Microfluidic micro-imaging of vaginal secretions
+R00379,Exclude,E5,"No bacteria analysed (plant, viral, mammalian-cell or non-bacterial organism images)",Plant disease images
+R00395,Include,,,
+R00753,Exclude,E5,"No bacteria analysed (plant, viral, mammalian-cell or non-bacterial organism images)","Pollen grains and unicellular microorganisms (micro-objects), no bacteria"
+R00755,Exclude,E7,Task is not detection / classification / segmentation / counting of bacteria in images,Image-based ML of fluorescent cfDNA spots in urine; bacteria not imaged
+R00772,Include,,,
+R00812,Include,,,
+R00815,Include,,,
+R00837,Include,,,
+R00852,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Nanoparticle swab-and-stain colourimetric assay for MRSA
+R00866,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Fluorescence wound imaging (MolecuLight) of bacterial burden/EPS
+R00888,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)","no deep-learning model described; Phage-therapy screening with robotics; colony/plaque enumeration by computer vision, no ML colony model reported"
+R00891,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Label-free multiphoton autofluorescence microscopy of cells
+R01075,Include,,,
+R01083,Exclude,E5,"No bacteria analysed (plant, viral, mammalian-cell or non-bacterial organism images)",Atomic force microscopy with synthetic training data; no bacterial images
+R01124,Include,,,
+R01157,Include,,,
+R01176,Include,,,
+R01195,Include,,,
+R01223,Include,,,
+R01226,Exclude,E7,Task is not detection / classification / segmentation / counting of bacteria in images,Unsupervised latent-space quantification of biofilm development (no detection/classification/segmentation/counting)
+R01236,Include,,,
+R01254,Include,,,
+R01300,Include,,,
+R01322,Include,,,
+R01357,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Scanning electron microscopy of Coxiella growth
+R01381,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",shallow ML only (SVM/RF); Fluorescence-stained bacterial smears (species identification)
+R01387,Include,,,
+R01401,Include,,,
+R01442,Include,,,
+R01538,Include,,,
+R01546,Include,,,
+R01581,Include,,,
+R01606,Include,,,
+R01661,Exclude,E5,"No bacteria analysed (plant, viral, mammalian-cell or non-bacterial organism images)",Environmental microorganism (EMDS) few-shot recognition; no bacteria class stated
+R01668,Include,,,
+R01683,Include,,,
+R01687,Include,,,
+R01777,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Cell-biology study (LdcI clustering) using fluorescence microscopy; DL used only for image segmentation
+R01853,Include,,,
+R01892,Include,,,
+R01919,Include,,,
+R01980,Include,,,
+R02000,Include,,,
+R02044,Include,,,
+R02049,Include,,,
+R02083,Exclude,E7,Task is not detection / classification / segmentation / counting of bacteria in images,Smartphone photos of faecal smears to predict microbiome composition; bacteria not imaged
+R02094,Include,,,
+R02126,Include,,,
+R02143,Include,,,
+R02201,Exclude,E7,Task is not detection / classification / segmentation / counting of bacteria in images,Laser-speckle classification of inhibition zones around antibiotic discs
+R02317,Include,,,
+R02394,Include,,,
+R02406,Include,,,
+R02417,Include,,,
+R02471,Include,,,
+R02545,Include,,,
+R02695,Exclude,E5,"No bacteria analysed (plant, viral, mammalian-cell or non-bacterial organism images)",Edge-computing microscopy benchmark on phytoplankton (cyanobacteria and diatoms); bacteria not the focus
+R02743,Include,,,
+R02746,Include,,,
+R02772,Include,,,
+R02775,Include,,,
+R02778,Include,,,
+R02813,Include,,,
+R02815,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Histopathology / whole-slide tissue images
+R02833,Include,,,
+R02896,Include,,,
+R02915,Include,,,
+R02934,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Poultry gut-health monitoring (volatile/faecal detection of C. perfringens); not colony images
+R02940,Include,,,
+R02953,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Aptamer-quantum-dot fluorescence detection in urine
+R03043,Include,,,
+R03088,Include,,,
+R03108,Exclude,E9,Only simulated / synthetic images,Digital holographic microscopy with simulated microorganisms only
+R03138,Include,,,
+R03367,Exclude,E5,"No bacteria analysed (plant, viral, mammalian-cell or non-bacterial organism images)",Virus classification from TEM images
+R03389,Exclude,E7,Task is not detection / classification / segmentation / counting of bacteria in images,Chest X-ray images for TB diagnosis
+R03426,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Environmental biofilm on plastic (Antarctica); no AI classification of colonies
+R03494,Include,,,
+R03591,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Colony-handling robot with image analysis of colony size/opacity; no AI/ML model
+R03618,Include,,,
+R03643,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",shallow ML only (SVM/RF); Gold-nanoparticle biosensor optical detection
+R03644,Include,,,
+R03645,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",Commercial AI MRSA colony reader; deep learning not stated (borderline)
+R03650,Include,,,
+R03667,Include,,,
+R03820,Include,,,
+R03846,Include,,,
+R03854,Include,,,
+R03862,Include,,,
+R03880,Include,,,
+R03912,Include,,,
+R04023,Include,,,
+R04034,Include,,,
+R04454,Include,,,
+R04481,Include,,,
+R04482,Include,,,
+R04516,Include,,,
+R04533,Include,,,
+R04571,Include,,,
+R04638,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Biofilm dispersion in membrane bioreactor strains
+R04698,Exclude,E5,"No bacteria analysed (plant, viral, mammalian-cell or non-bacterial organism images)",Microbial single-cell sorting dominated by yeast; bacteria not the analysed target
+R04708,Include,,,
+R04710,Include,,,
+R04805,Include,,,
+R04823,Exclude,E7,Task is not detection / classification / segmentation / counting of bacteria in images,Anterior-segment photographs: bacterial vs fungal keratitis
+R04838,Include,,,
+R04879,Include,,,
+R04882,Exclude,E5,"No bacteria analysed (plant, viral, mammalian-cell or non-bacterial organism images)",Field images of rice bacterial blight (plant images)
+R04910,Exclude,E3,Not original journal research (review / survey),Systematic analysis/review of ML and DL for plant disease identification
+R04919,Exclude,E5,"No bacteria analysed (plant, viral, mammalian-cell or non-bacterial organism images)",Bell-pepper leaf disease images
+R04927,Include,,,
+R04958,Include,,,
+R04959,Exclude,E5,"No bacteria analysed (plant, viral, mammalian-cell or non-bacterial organism images)",EMDS-7 environmental microorganism dataset; no bacteria class stated
+R04975,Include,,,
+R05016,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",APAS plate reader; machine learning only mentioned in passing (borderline)
+R05018,Include,,,
+R05033,Include,,,
+R05075,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Listeria persister formation in host cells
+R05096,Exclude,E7,Task is not detection / classification / segmentation / counting of bacteria in images,Corneal photographs: bacterial vs fungal keratitis
+R05105,Exclude,E5,"No bacteria analysed (plant, viral, mammalian-cell or non-bacterial organism images)",SEM-RCNN on EMDS-6 environmental microorganisms (and blood cells); bacteria not a target class
+R05157,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Urinalysis analyser (digital imaging particle recognition)
+R05165,Exclude,E5,"No bacteria analysed (plant, viral, mammalian-cell or non-bacterial organism images)",Small environmental microorganism dataset; bacteria not a target class
+R05223,Include,,,
+R05311,Include,,,
+R05334,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",Classical algorithm-based image processing for endospore detection
+R05354,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; M. tuberculosis intracellular microcolony growth in macrophages
+R05418,Exclude,E7,Task is not detection / classification / segmentation / counting of bacteria in images,"Flatbed-scanner growth monitoring of broth microplates (turbidity), no bacterial detection/classification"
+R05459,Exclude,E7,Task is not detection / classification / segmentation / counting of bacteria in images,Macroscopic images/videos of mushroom logs with contamination; bacteria not imaged
+R05517,Exclude,E5,"No bacteria analysed (plant, viral, mammalian-cell or non-bacterial organism images)",Environmental microorganism (EMDS) images; no bacteria class stated
+R05523,Include,,,
+R05626,Include,,,
+R05678,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",Unsupervised morphology grouping; deep learning only cited
+R05778,Exclude,E10,"Hardware / architecture only, no bacterial image analysis",Hardware-efficient CNN architecture; no bacterial image analysis
+R05807,Exclude,E7,Task is not detection / classification / segmentation / counting of bacteria in images,Disc-diffusion antibiogram reading (inhibition-zone diameters)
+R05827,Include,,,
+R05874,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Microfluidic DNAzyme E. coli counter
+R06012,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Automated urine microscope (UriSed) particle counting
+R06200,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",shallow ML only (SVM/RF); Motility trajectories of bacteria in microscope video; species identification from motion
+R06261,Exclude,E7,Task is not detection / classification / segmentation / counting of bacteria in images,Slit-lamp images: bacterial vs fungal keratitis
+R06346,Include,,,
+R06353,Include,,,
+R06653,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Colony enumeration by classical image processing (ImageJ-based)
+R06930,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Fluorescent SmartProbes on corneal scrapes
+R06957,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Microfluidic / mother-machine / time-lapse single-cell microscopy
+R07107,Exclude,E7,Task is not detection / classification / segmentation / counting of bacteria in images,Colorimetric sensor images captured by smartphone for water-quality parameters; bacteria not imaged
+R07179,Exclude,E8,No quantitative evaluation,Proof-of-concept microscopy system with no quantitative performance evaluation
+R07188,Include,,,
+R07472,Include,,,
+R07499,Include,,,
+R07520,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",shallow ML only (SVM/RF); Genome-wide phenotypic imaging of E. coli cell morphology (microscopy)
+R07588,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Paper-based immunoassay colorimetric readout
+R07689,Include,,,
+R07870,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described
+R07888,Include,,,
+R07959,Include,,,
+R08017,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Portable microfluidic Legionella counting
+R08197,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Microfluidic capillaric circuit assay
+R08234,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Gene expression in E. coli biofilms (fluorescence reporters)
+R08240,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Microfluidic / mother-machine / time-lapse single-cell microscopy
+R08302,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; 16S rRNA amplicon sequencing study of biogas plants
+R08443,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Microfluidic / mother-machine / time-lapse single-cell microscopy
+R08545,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; Drinking-water biofilm composition (sequencing)
+R08572,Exclude,E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",no deep-learning model described; BARDOT laser scatter patterns of colonies analysed with ImageJ and statistics/phylogeny; no ML model

@@ -1,0 +1,7 @@
+model_family,n,Median,Q1,Q3,Min,Max
+"CNN classifier (ResNet, VGG, custom)",84.0,94.95,90.68,98.61,68.0,100.0
+"Object detector (YOLO, R-CNN, SSD)",16.0,93.44,87.18,97.62,43.0,100.0
+"Segmentation network (U-Net, Mask R-CNN)",11.0,96.0,84.82,96.65,77.15,99.41
+Transformer,11.0,96.0,92.57,99.04,85.8,99.78
+"Generative (GAN, diffusion)",2.0,80.5,76.75,84.25,73.0,88.0
+LLM / vision-language,2.0,98.34,98.22,98.45,98.1,98.57

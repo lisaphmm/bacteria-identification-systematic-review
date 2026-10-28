@@ -1,0 +1,11 @@
+﻿cohort,analysis,reports,accuracy_n,missing_accuracy,median,q1,q3,minimum,maximum,interpretation
+All included,All reports,206,126,80,95.02500000,88.87500000,98.52000000,43.00000000,100.00000000,Descriptive as-extracted heterogeneous headline values; not pooled accuracy; excluding High does not make remaining studies Low risk
+All included,Exclude High risk (Low + Unclear),124,74,50,95.25000000,90.15000000,98.42750000,43.00000000,100.00000000,Descriptive as-extracted heterogeneous headline values; not pooled accuracy; excluding High does not make remaining studies Low risk
+All included,High risk,82,52,30,94.97500000,87.97500000,98.54000000,68.00000000,100.00000000,Descriptive as-extracted heterogeneous headline values; not pooled accuracy; excluding High does not make remaining studies Low risk
+All included,Unclear risk,122,72,50,95.25000000,90.00000000,98.53250000,43.00000000,100.00000000,Descriptive as-extracted heterogeneous headline values; not pooled accuracy; excluding High does not make remaining studies Low risk
+All included,Low risk only,2,2,0,94.00000000,92.45000000,95.55000000,90.90000000,97.10000000,Descriptive as-extracted heterogeneous headline values; not pooled accuracy; excluding High does not make remaining studies Low risk
+Agar plates,All reports,52,29,23,96.50000000,90.97000000,98.52000000,43.00000000,100.00000000,Descriptive as-extracted heterogeneous headline values; not pooled accuracy; excluding High does not make remaining studies Low risk
+Agar plates,Exclude High risk (Low + Unclear),36,20,16,97.05000000,91.42500000,98.85000000,43.00000000,100.00000000,Descriptive as-extracted heterogeneous headline values; not pooled accuracy; excluding High does not make remaining studies Low risk
+Agar plates,High risk,16,9,7,95.05000000,90.97000000,97.40000000,86.00000000,99.70000000,Descriptive as-extracted heterogeneous headline values; not pooled accuracy; excluding High does not make remaining studies Low risk
+Agar plates,Unclear risk,36,20,16,97.05000000,91.42500000,98.85000000,43.00000000,100.00000000,Descriptive as-extracted heterogeneous headline values; not pooled accuracy; excluding High does not make remaining studies Low risk
+Agar plates,Low risk only,0,0,0,,,,,,Descriptive as-extracted heterogeneous headline values; not pooled accuracy; excluding High does not make remaining studies Low risk

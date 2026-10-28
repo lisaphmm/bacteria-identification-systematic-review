@@ -1,0 +1,105 @@
+﻿subgroup,characteristic_code,n,denominator,percent,ci_low_percent,ci_high_percent,interpretation
+All included,fam_LLM / vision-language,4,206,1.94174757,0.75763491,4.88541527,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,fam_Transformer,23,206,11.16504854,7.55595163,16.19600811,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,"fam_Object detector (YOLO, R-CNN, SSD)",57,206,27.66990291,22.01196859,34.14540826,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,"fam_Segmentation network (U-Net, Mask R-CNN)",36,206,17.47572816,12.89855181,23.24371447,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,"fam_Generative (GAN, diffusion)",5,206,2.42718447,1.04110301,5.55504768,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,"fam_CNN classifier (ResNet, VGG, custom)",162,206,78.64077670,72.54650898,83.68642071,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Escherichia,79,206,38.34951456,31.98047797,45.14510995,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Staphylococcus,46,206,22.33009709,17.17917046,28.49410085,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Pseudomonas,36,206,17.47572816,12.89855181,23.24371447,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Klebsiella,25,206,12.13592233,8.35684578,17.30131497,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Bacillus,26,206,12.62135922,8.76060075,17.85066050,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Salmonella,10,206,4.85436893,2.65786721,8.70378599,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Mycobacterium,30,206,14.56310680,10.39537491,20.02828836,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Streptococcus,6,206,2.91262136,1.34157489,6.20767630,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Enterococcus,13,206,6.31067961,3.72473360,10.49622111,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Acinetobacter,11,206,5.33980583,3.00749657,9.30725713,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Listeria,5,206,2.42718447,1.04110301,5.55504768,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Lactobacillus,6,206,2.91262136,1.34157489,6.20767630,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,"gen_Candida (yeast, co-analysed)",24,206,11.65048544,7.95525846,16.74980178,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Helicobacter,6,206,2.91262136,1.34157489,6.20767630,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Vibrio,2,206,0.97087379,0.26665365,3.47019553,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Proteus,4,206,1.94174757,0.75763491,4.88541527,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Enterobacter,5,206,2.42718447,1.04110301,5.55504768,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Clostridium,1,206,0.48543689,0.08574299,2.69800568,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Campylobacter,0,206,0.00000000,0.00000000,1.83064817,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Neisseria,1,206,0.48543689,0.08574299,2.69800568,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,gen_Citrobacter,2,206,0.97087379,0.26665365,3.47019553,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,fac_Incubation / growth time,23,206,11.16504854,7.55595163,16.19600811,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,fac_Illumination / lighting,19,206,9.22330097,5.98423887,13.95531886,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,fac_Imaging device / modality / magnification,31,206,15.04854369,10.80859496,20.56816881,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,fac_Image resolution / patch or crop size,37,206,17.96116505,13.32094029,23.77442650,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,fac_Medium / background / plate type,27,206,13.10679612,9.16642080,18.39794095,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,"fac_Preprocessing (filtering, normalisation)",33,206,16.01941748,11.63997852,21.64298625,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,fac_Data augmentation / synthetic data,48,206,23.30097087,18.04904482,29.53042750,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,fac_Transfer learning / pretraining,12,206,5.82524272,3.36334027,9.90451393,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,fac_Species / strain / concentration,55,206,26.69902913,21.12484443,33.12633142,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,agar,52,206,25.24271845,19.80092674,31.59094759,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,ext_valid,59,206,28.64077670,22.90256571,35.16101214,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,cross_val,37,206,17.96116505,13.32094029,23.77442650,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,data_public,87,206,42.23300971,35.69073176,49.05966018,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,data_request,75,206,36.40776699,30.14153209,43.17165382,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,code_public,59,206,28.64077670,22.90256571,35.16101214,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,ds_AGAR,7,206,3.39805825,1.65558777,6.84676392,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,ds_DIBaS,16,206,7.76699029,4.83715508,12.24310114,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,morph_feat,35,206,16.99029126,12.47756404,22.71160174,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,llm_vlm,4,206,1.94174757,0.75763491,4.88541527,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+All included,"primary_family: CNN classifier (ResNet, VGG, custom)",107,206,51.94174757,45.14613849,58.66626353,Primary model family as coded in the existing extraction
+All included,"primary_family: Object detector (YOLO, R-CNN, SSD)",54,206,26.21359223,20.68262047,32.61545487,Primary model family as coded in the existing extraction
+All included,"primary_family: Segmentation network (U-Net, Mask R-CNN)",23,206,11.16504854,7.55595163,16.19600811,Primary model family as coded in the existing extraction
+All included,primary_family: Transformer,15,206,7.28155340,4.46206480,11.66509092,Primary model family as coded in the existing extraction
+All included,primary_family: LLM / vision-language,4,206,1.94174757,0.75763491,4.88541527,Primary model family as coded in the existing extraction
+All included,"primary_family: Generative (GAN, diffusion)",3,206,1.45631068,0.49649132,4.19345836,Primary model family as coded in the existing extraction
+Agar plates,fam_LLM / vision-language,2,52,3.84615385,1.06117110,12.98118916,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,fam_Transformer,7,52,13.46153846,6.67688171,25.27332017,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,"fam_Object detector (YOLO, R-CNN, SSD)",21,52,40.38461538,28.15973387,53.93242452,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,"fam_Segmentation network (U-Net, Mask R-CNN)",3,52,5.76923077,1.98141721,15.64251137,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,"fam_Generative (GAN, diffusion)",3,52,5.76923077,1.98141721,15.64251137,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,"fam_CNN classifier (ResNet, VGG, custom)",37,52,71.15384615,57.72721196,81.67003959,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Escherichia,32,52,61.53846154,47.95987372,73.52953622,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Staphylococcus,16,52,30.76923077,19.91472795,44.26958882,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Pseudomonas,15,52,28.84615385,18.32996041,42.27278804,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Klebsiella,12,52,23.07692308,13.72426093,36.13378256,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Bacillus,9,52,17.30769231,9.38247439,29.73086412,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Salmonella,6,52,11.53846154,5.39696920,22.97166434,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Mycobacterium,0,52,0.00000000,0.00000000,6.87922361,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Streptococcus,2,52,3.84615385,1.06117110,12.98118916,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Enterococcus,3,52,5.76923077,1.98141721,15.64251137,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Acinetobacter,2,52,3.84615385,1.06117110,12.98118916,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Listeria,4,52,7.69230769,3.03193452,18.17356238,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Lactobacillus,0,52,0.00000000,0.00000000,6.87922361,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,"gen_Candida (yeast, co-analysed)",4,52,7.69230769,3.03193452,18.17356238,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Helicobacter,0,52,0.00000000,0.00000000,6.87922361,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Vibrio,0,52,0.00000000,0.00000000,6.87922361,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Proteus,1,52,1.92307692,0.34028081,10.12051113,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Enterobacter,3,52,5.76923077,1.98141721,15.64251137,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Clostridium,0,52,0.00000000,0.00000000,6.87922361,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Campylobacter,0,52,0.00000000,0.00000000,6.87922361,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Neisseria,0,52,0.00000000,0.00000000,6.87922361,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,gen_Citrobacter,1,52,1.92307692,0.34028081,10.12051113,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,fac_Incubation / growth time,15,52,28.84615385,18.32996041,42.27278804,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,fac_Illumination / lighting,11,52,21.15384615,12.24437053,34.03210463,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,fac_Imaging device / modality / magnification,8,52,15.38461538,8.00768502,27.52408518,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,fac_Image resolution / patch or crop size,11,52,21.15384615,12.24437053,34.03210463,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,fac_Medium / background / plate type,15,52,28.84615385,18.32996041,42.27278804,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,"fac_Preprocessing (filtering, normalisation)",5,52,9.61538462,4.17743511,20.60963012,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,fac_Data augmentation / synthetic data,13,52,25.00000000,15.23315386,38.20645794,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,fac_Transfer learning / pretraining,2,52,3.84615385,1.06117110,12.98118916,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,fac_Species / strain / concentration,19,52,36.53846154,24.80069987,50.12832187,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,agar,52,52,100.00000000,93.12077639,100.00000000,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,ext_valid,15,52,28.84615385,18.32996041,42.27278804,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,cross_val,10,52,19.23076923,10.79604602,31.89886081,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,data_public,25,52,48.07692308,35.10411445,61.31431723,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,data_request,22,52,42.30769231,29.86805208,55.80567463,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,code_public,16,52,30.76923077,19.91472795,44.26958882,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,ds_AGAR,7,52,13.46153846,6.67688171,25.27332017,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,ds_DIBaS,0,52,0.00000000,0.00000000,6.87922361,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,morph_feat,7,52,13.46153846,6.67688171,25.27332017,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,llm_vlm,2,52,3.84615385,1.06117110,12.98118916,Reported/coded presence; a false flag is not proof of absence; categories can overlap
+Agar plates,"primary_family: CNN classifier (ResNet, VGG, custom)",23,52,44.23076923,31.59505682,57.66023821,Primary model family as coded in the existing extraction
+Agar plates,"primary_family: Object detector (YOLO, R-CNN, SSD)",20,52,38.46153846,26.47046378,52.04012628,Primary model family as coded in the existing extraction
+Agar plates,primary_family: Transformer,5,52,9.61538462,4.17743511,20.60963012,Primary model family as coded in the existing extraction
+Agar plates,primary_family: LLM / vision-language,2,52,3.84615385,1.06117110,12.98118916,Primary model family as coded in the existing extraction
+Agar plates,"primary_family: Segmentation network (U-Net, Mask R-CNN)",1,52,1.92307692,0.34028081,10.12051113,Primary model family as coded in the existing extraction
+Agar plates,"primary_family: Generative (GAN, diffusion)",1,52,1.92307692,0.34028081,10.12051113,Primary model family as coded in the existing extraction

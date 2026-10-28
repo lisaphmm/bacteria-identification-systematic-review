@@ -19,3 +19,6 @@ Thumbs.db
 
 # Large generated batch files (50MB+)
 batch_requests/
+
+# Downloaded full-text PDFs (copyrighted, large)
+papers/pdfs/

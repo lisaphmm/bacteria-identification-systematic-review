@@ -1,0 +1,14 @@
+,value
+agreement_3class,0.9507678410117435
+kappa_3class,0.5949927924078147
+agreement_binary,0.9513324299909666
+kappa_binary,0.5931578599552751
+n_both_exclude,8075.0
+same_exclusion_code_share,0.8085448916408668
+mcnemar_b,214.0
+mcnemar_c,217.0
+mcnemar_p,0.9232679402783625
+n,8856.0
+positives,395.0
+gemini_check,125.0
+mistral_check,283.0

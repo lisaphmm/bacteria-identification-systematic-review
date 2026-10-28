@@ -1,0 +1,7 @@
+Database,Records exported,Duplicates removed,Unique records kept,Removed before screening,Screened (title/abstract),Included at title/abstract,Included after full text
+Scopus,11516,401,11115,2934,8181,365,191
+PubMed,362,0,362,1,361,19,8
+SpringerLink,242,0,242,12,230,0,0
+IEEE Xplore,68,0,68,0,68,10,6
+Embase,25,3,22,6,16,1,1
+Total,12213,404,11809,2953,8856,395,206

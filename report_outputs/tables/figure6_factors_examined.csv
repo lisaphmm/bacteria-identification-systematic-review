@@ -1,0 +1,10 @@
+,All included,Agar plate studies,All included (%),Agar plate studies (%)
+Species / strain / concentration,55,19,26.7,36.5
+Data augmentation / synthetic data,48,13,23.3,25.0
+Image resolution / patch or crop size,37,11,18.0,21.2
+"Preprocessing (filtering, normalisation)",33,5,16.0,9.6
+Imaging device / modality / magnification,31,8,15.0,15.4
+Medium / background / plate type,27,15,13.1,28.8
+Incubation / growth time,23,15,11.2,28.8
+Illumination / lighting,19,11,9.2,21.2
+Transfer learning / pretraining,12,2,5.8,3.8

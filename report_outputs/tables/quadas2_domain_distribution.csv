@@ -1,0 +1,82 @@
+﻿cohort,domain,domain_name,judgement,code,n,denominator,percent,ci_low_percent,ci_high_percent
+All included,D1,Sample selection,Low,L,4,206,1.94174757,0.75763491,4.88541527
+All included,D1,Sample selection,High,H,35,206,16.99029126,12.47756404,22.71160174
+All included,D1,Sample selection,Unclear,U,167,206,81.06796117,75.16818190,85.83025030
+All included,D2,Index test,Low,L,53,206,25.72815534,20.24130912,32.10366571
+All included,D2,Index test,High,H,45,206,21.84466019,16.74582719,27.97434362
+All included,D2,Index test,Unclear,U,108,206,52.42718447,45.62550841,59.13999411
+All included,D3,Reference standard,Low,L,68,206,33.00970874,26.95062241,39.69085998
+All included,D3,Reference standard,High,H,10,206,4.85436893,2.65786721,8.70378599
+All included,D3,Reference standard,Unclear,U,128,206,62.13592233,55.34722203,68.48029055
+All included,D4,Flow and timing,Low,L,128,206,62.13592233,55.34722203,68.48029055
+All included,D4,Flow and timing,High,H,31,206,15.04854369,10.80859496,20.56816881
+All included,D4,Flow and timing,Unclear,U,47,206,22.81553398,17.61358420,29.01278762
+All included,A1,Sample applicability,Low,L,73,206,35.43689320,29.22624257,42.18074233
+All included,A1,Sample applicability,High,H,87,206,42.23300971,35.69073176,49.05966018
+All included,A1,Sample applicability,Unclear,U,46,206,22.33009709,17.17917046,28.49410085
+All included,A2,Index applicability,Low,L,205,206,99.51456311,97.30199432,99.91425701
+All included,A2,Index applicability,High,H,1,206,0.48543689,0.08574299,2.69800568
+All included,A2,Index applicability,Unclear,U,0,206,0.00000000,0.00000000,1.83064817
+All included,A3,Reference applicability,Low,L,153,206,74.27184466,67.89633429,79.75869088
+All included,A3,Reference applicability,High,H,13,206,6.31067961,3.72473360,10.49622111
+All included,A3,Reference applicability,Unclear,U,40,206,19.41747573,14.59609248,25.35857582
+All included,overall_risk,Overall Risk,Low,L,2,206,0.97087379,0.26665365,3.47019553
+All included,overall_risk,Overall Risk,High,H,82,206,39.80582524,33.36684289,46.61804654
+All included,overall_risk,Overall Risk,Unclear,U,122,206,59.22330097,52.40333503,65.70557454
+All included,overall_applicability,Overall Applicability,Low,L,64,206,31.06796117,25.14358542,37.68549496
+All included,overall_applicability,Overall Applicability,High,H,94,206,45.63106796,38.97137603,52.45071945
+All included,overall_applicability,Overall Applicability,Unclear,U,48,206,23.30097087,18.04904482,29.53042750
+Agar plates,D1,Sample selection,Low,L,0,52,0.00000000,0.00000000,6.87922361
+Agar plates,D1,Sample selection,High,H,7,52,13.46153846,6.67688171,25.27332017
+Agar plates,D1,Sample selection,Unclear,U,45,52,86.53846154,74.72667983,93.32311829
+Agar plates,D2,Index test,Low,L,17,52,32.69230769,21.52207446,46.24381064
+Agar plates,D2,Index test,High,H,9,52,17.30769231,9.38247439,29.73086412
+Agar plates,D2,Index test,Unclear,U,26,52,50.00000000,36.88586296,63.11413704
+Agar plates,D3,Reference standard,Low,L,23,52,44.23076923,31.59505682,57.66023821
+Agar plates,D3,Reference standard,High,H,1,52,1.92307692,0.34028081,10.12051113
+Agar plates,D3,Reference standard,Unclear,U,28,52,53.84615385,40.50361133,66.65952532
+Agar plates,D4,Flow and timing,Low,L,33,52,63.46153846,49.87167813,75.19930013
+Agar plates,D4,Flow and timing,High,H,8,52,15.38461538,8.00768502,27.52408518
+Agar plates,D4,Flow and timing,Unclear,U,11,52,21.15384615,12.24437053,34.03210463
+Agar plates,A1,Sample applicability,Low,L,13,52,25.00000000,15.23315386,38.20645794
+Agar plates,A1,Sample applicability,High,H,29,52,55.76923077,42.33976179,68.40494318
+Agar plates,A1,Sample applicability,Unclear,U,10,52,19.23076923,10.79604602,31.89886081
+Agar plates,A2,Index applicability,Low,L,52,52,100.00000000,93.12077639,100.00000000
+Agar plates,A2,Index applicability,High,H,0,52,0.00000000,0.00000000,6.87922361
+Agar plates,A2,Index applicability,Unclear,U,0,52,0.00000000,0.00000000,6.87922361
+Agar plates,A3,Reference applicability,Low,L,43,52,82.69230769,70.26913588,90.61752561
+Agar plates,A3,Reference applicability,High,H,2,52,3.84615385,1.06117110,12.98118916
+Agar plates,A3,Reference applicability,Unclear,U,7,52,13.46153846,6.67688171,25.27332017
+Agar plates,overall_risk,Overall Risk,Low,L,0,52,0.00000000,0.00000000,6.87922361
+Agar plates,overall_risk,Overall Risk,High,H,16,52,30.76923077,19.91472795,44.26958882
+Agar plates,overall_risk,Overall Risk,Unclear,U,36,52,69.23076923,55.73041118,80.08527205
+Agar plates,overall_applicability,Overall Applicability,Low,L,11,52,21.15384615,12.24437053,34.03210463
+Agar plates,overall_applicability,Overall Applicability,High,H,30,52,57.69230769,44.19432537,70.13194792
+Agar plates,overall_applicability,Overall Applicability,Unclear,U,11,52,21.15384615,12.24437053,34.03210463
+Other images,D1,Sample selection,Low,L,4,154,2.59740260,1.01461239,6.48750962
+Other images,D1,Sample selection,High,H,28,154,18.18181818,12.88955111,25.02283216
+Other images,D1,Sample selection,Unclear,U,122,154,79.22077922,72.14025990,84.87897996
+Other images,D2,Index test,Low,L,36,154,23.37662338,17.39034106,30.65879596
+Other images,D2,Index test,High,H,36,154,23.37662338,17.39034106,30.65879596
+Other images,D2,Index test,Unclear,U,82,154,53.24675325,45.38356436,60.95190674
+Other images,D3,Reference standard,Low,L,45,154,29.22077922,22.61375417,36.83923082
+Other images,D3,Reference standard,High,H,9,154,5.84415584,3.10476806,10.73282504
+Other images,D3,Reference standard,Unclear,U,100,154,64.93506494,57.11858892,72.02457812
+Other images,D4,Flow and timing,Low,L,95,154,61.68831169,53.81440482,68.99329112
+Other images,D4,Flow and timing,High,H,23,154,14.93506494,10.16281839,21.41409378
+Other images,D4,Flow and timing,Unclear,U,36,154,23.37662338,17.39034106,30.65879596
+Other images,A1,Sample applicability,Low,L,60,154,38.96103896,31.61720432,46.84219396
+Other images,A1,Sample applicability,High,H,58,154,37.66233766,30.39760705,45.52760278
+Other images,A1,Sample applicability,Unclear,U,36,154,23.37662338,17.39034106,30.65879596
+Other images,A2,Index applicability,Low,L,153,154,99.35064935,96.41387910,99.88528155
+Other images,A2,Index applicability,High,H,1,154,0.64935065,0.11471845,3.58612090
+Other images,A2,Index applicability,Unclear,U,0,154,0.00000000,0.00000000,2.43374513
+Other images,A3,Reference applicability,Low,L,110,154,71.42857143,63.84021318,77.97389604
+Other images,A3,Reference applicability,High,H,11,154,7.14285714,4.03497446,12.33680709
+Other images,A3,Reference applicability,Unclear,U,33,154,21.42857143,15.68499554,28.56285883
+Other images,overall_risk,Overall Risk,Low,L,2,154,1.29870130,0.35687626,4.61105731
+Other images,overall_risk,Overall Risk,High,H,66,154,42.85714286,35.30879677,50.75316682
+Other images,overall_risk,Overall Risk,Unclear,U,86,154,55.84415584,47.95385112,63.44999685
+Other images,overall_applicability,Overall Applicability,Low,L,53,154,34.41558442,27.37351161,42.21622713
+Other images,overall_applicability,Overall Applicability,High,H,64,154,41.55844156,34.07288297,49.45489218
+Other images,overall_applicability,Overall Applicability,Unclear,U,37,154,24.02597403,17.96304511,31.35318613

@@ -1,0 +1,7 @@
+ref_cat,n,Median,Q1,Q3,Min,Max
+Manual counting / expert annotation,74.0,97.2,91.2,98.78,59.36,100.0
+Culture / biochemical / plate count,22.0,90.94,80.1,96.4,43.0,99.9
+Known strain / dataset label,19.0,94.3,91.2,96.95,73.0,100.0
+MALDI-TOF,7.0,91.8,88.6,93.25,77.15,99.7
+Sequencing / PCR,3.0,98.6,98.3,99.3,98.0,100.0
+Not stated / other,1.0,77.24,77.24,77.24,77.24,77.24

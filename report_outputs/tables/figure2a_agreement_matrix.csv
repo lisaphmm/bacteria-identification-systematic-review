@@ -1,0 +1,4 @@
+d_gemini,include,check_manually,exclude
+include,260,1,128
+check_manually,4,85,36
+exclude,70,197,8075

@@ -1,0 +1,8 @@
+Exclusion_code,Exclusion_reason,Reports
+E6,"Deep learning not used (shallow ML, classical image processing, rule-based or no AI model)",95
+E5,"No bacteria analysed (plant, viral, mammalian-cell or non-bacterial organism images)",25
+E7,Task is not detection / classification / segmentation / counting of bacteria in images,23
+E3,Not original journal research (review / survey),2
+E10,"Hardware / architecture only, no bacterial image analysis",1
+E8,No quantitative evaluation,1
+E9,Only simulated / synthetic images,1

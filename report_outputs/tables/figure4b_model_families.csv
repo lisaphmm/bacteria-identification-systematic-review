@@ -1,0 +1,7 @@
+model_family,Studies (primary family),Agar studies,Studies using family (multi-label)
+"CNN classifier (ResNet, VGG, custom)",107,23,162
+"Generative (GAN, diffusion)",3,1,5
+LLM / vision-language,4,2,4
+"Object detector (YOLO, R-CNN, SSD)",54,20,57
+"Segmentation network (U-Net, Mask R-CNN)",23,1,36
+Transformer,15,5,23
